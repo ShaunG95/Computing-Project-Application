@@ -1,0 +1,64 @@
+
+/*
+BACKGROUND COLOUR
+*/
+body {
+    background-color: whitesmoke;
+}
+
+/*OVERLAP CONTROL*/
+.Container {
+    overflow: auto;
+}
+
+/*IMAGE STYLING*/
+.Thumbnail {
+    height: 10em;
+    width: 10em;
+    float: left;
+}
+
+/*LINK STYLING*/
+.headerLink {
+    text-align: center;
+}
+
+/*BACK BUTTON STYLING*/
+.ui-btn {
+    top: 15px;
+    position: absolute;
+    width: 10em;
+    max-width: 15em;
+    max-height: 20em;
+}
+
+/*TITLE STYLING*/
+#title {
+    font-family: "Calibri", Calibri, serif;
+    background-color: #0085FF;
+    color:white;
+    text-align:center;
+    padding:5px;
+    top: -50px;
+}
+
+/*CATEGORY STYLING*/
+.NewlyAdded {
+    padding: 10px;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.Popular {
+    padding: 10px;
+    background-color: lightsteelblue;
+    text-align: center;
+
+}
+
+.Browse {
+    padding: 10px;
+    background-color: lightsteelblue;
+    text-align: center;
+
+}
